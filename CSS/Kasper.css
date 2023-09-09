@@ -1203,7 +1203,8 @@ html {
 }
 
 .copyright {
-  padding: 10px 15px;
+  padding: 5px 10px;
+  font-size: 14px;
   background-color: var(--main-color);
   color: white;
   border: none;
