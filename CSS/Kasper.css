@@ -1212,7 +1212,8 @@ html {
   margin: auto;
   cursor: pointer;
   bottom: 0;
-  left: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   animation: motion 15s infinite alternate;
