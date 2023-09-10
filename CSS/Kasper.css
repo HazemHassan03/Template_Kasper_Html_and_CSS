@@ -1201,25 +1201,26 @@ html {
     bottom: 15px;
   }
 }
-
 .copyright {
-  padding: 5px 10px;
-  font-size: 14px;
-  background-color: var(--main-color);
-  color: white;
+  color: var(--main-color);
   border: none;
-  position: fixed;
+  background-color: transparent;
+  position: absolute;
   display: block;
   margin: auto;
   cursor: pointer;
-  bottom: 0;
+  bottom: 9%;
   left: 50%;
-  transform: translateX(-50%);
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   animation: motion 15s infinite alternate;
   -webkit-animation: motion 15s infinite alternate;
   z-index: 999;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 @media (max-width: 767px) {
   .copyright {
